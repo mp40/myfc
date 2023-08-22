@@ -6,6 +6,7 @@
 	<div class="header"><h1>MYFC</h1></div>
 	<div class="body">
 		<Day date={new Date('2023-08-21')} am={['🏃', '🚶']} pm={['🚶', '🏃']} kg={92} />
+		<Day date={new Date('2023-08-22')} am={['🏃', '🚶']} pm={['🚶']} kg={undefined} />
 	</div>
 </main>
 
@@ -18,11 +19,5 @@
 
 	.header {
 		background-color: cadetblue;
-	}
-
-	.body {
-		padding: 0 0.5em;
-		border-radius: 3px;
-		width: calc(100% / 7);
 	}
 </style>

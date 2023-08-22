@@ -14,3 +14,14 @@ body {
   margin: 0;
   background-color: whitesmoke;
 }
+
+.body {
+  padding: 0 0.5em;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.body > div:nth-of-type(n + 2) {
+  margin-left: 0.5em;
+}
